@@ -1,0 +1,38 @@
+{
+  "name": "wikiapi",
+  "version": "1.0.0",
+  "description": "A RESTful API in NodeJS for creating and managing a wiki.",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LukasG62/WikiAPI.git"
+  },
+  "keywords": [
+    "wiki",
+    "history",
+    "restful",
+    "versioning",
+    "engine",
+    "users",
+    "authentication"
+  ],
+  "author": "Lukas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LukasG62/WikiAPI/issues"
+  },
+  "homepage": "https://github.com/LukasG62/WikiAPI#readme",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.9.7",
+    "sequelize": "^6.37.3"
+  }
+}
